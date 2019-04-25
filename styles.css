@@ -1,0 +1,33 @@
+.lightOn{
+    background-color: yellow;
+    font-style: bold;
+    color: blue;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+light{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#light{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 4em;
+    border-radius: 50%;
+}
