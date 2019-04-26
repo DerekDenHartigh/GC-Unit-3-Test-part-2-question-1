@@ -7,6 +7,13 @@ function LightSwitchController($scope){
     //     $scope.emit()
     // }
     
+    $("button").on('click', ()=>{
+        if ($('body').hasClass('bright')===true){
+            $('body').removeClass('bright');
+        } else {
+            $('body').addClass('bright');
+        }
+    })
 }
 
 angular

@@ -29,6 +29,7 @@ function LightController($scope){ // $watch
     //         $("#light").removeClass("lightOn");
     //     };
     // });
+
 };
 
 
