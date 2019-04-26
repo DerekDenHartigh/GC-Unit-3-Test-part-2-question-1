@@ -4,6 +4,7 @@
     color: blue;
 }
 body{
+    background-color: darkgray;
     width: 100vw;
     height: 100vh;
     display: flex;
